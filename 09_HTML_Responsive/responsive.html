@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            background-color: gray;
+        }
+
+        .flex-container > div {
+            background-color: dodgerblue;
+            color: white;
+            height: 100px;
+            margin: 10px 0;
+            text-align: center;
+            line-height: 100px;
+        }
+        @media screen and (min-width: 1024px) {
+            .flex-container {
+                flex-direction: row;
+            }
+
+            .flex-container > div {
+                background-color: dodgerblue;
+                color: white;
+                height: 100px;
+                margin: 10px;
+                text-align: center;
+                line-height: 100px;
+                width: 100%;
+            }
+        }
+        @media screen and (min-width: 768px) and (max-width: 1024px)  {
+            .flex-container > div {
+                background-color: red;
+            }
+        }
+        @media (orientation:landscape) {
+            .flex-container > div {
+                color: yellow;
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+https://projects.invisionapp.com/freehand/document/4BYR4UGSv
+https://projects.invisionapp.com/prototype/temazaro-sitebuild-ckirffgle006nph01sa10x76l/play/16ca7623
+
+Alap margók: 20px, 60px
+Fontok: Monstserrat, Arial
+
+
+gombok:
+- egységes stílus; 
+- minimum szélességük van: 138px; inline-block; minimum magasság: 42px;
+- hover és active állapotokra animálva megváltoztatja a hátterét és betűszínét
+- copy- &copy; html entity
+
+Mappa struktóra 
+spacex-sitebuild-<sajatnev> (projekt nev)
+ -index.html
+ -main.css
+ -assets(mappa)
+	-images (mappa)
+	-icons (mappa)
+
+
+Óra végén küldd el Slack-en Lacinak és Zolinak az egész mappát tömörítve egy zipben
+fajlnev: temazaro-day1-<sajatnev>.zip
+ 
+	
+
+
+

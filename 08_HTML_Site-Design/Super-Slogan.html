@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet" >
+    <meta charset="UTF-8">
+    <title>Super Slogan</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #F0F8FF;
+        }
+        .header-flex {
+            display: flex;
+            background-color: #05396B;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-flex {
+            display: flex;
+            background-color: #05396B;
+            justify-content: left;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .logotype {
+            color: white;
+            font-size: 30px;
+            margin: 20px 20px 20px 20px;
+            width: 100px;                   <!-- komment: valamiért csak így lesz középen a menü -->
+        }
+        header ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            flex-grow: 1;
+        }
+        header li{
+            display: inline-block;
+        }
+        header a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+        header ul a:hover {
+            text-decoration: underline;
+        }
+        header button {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 16px;
+            text-align: center;
+            text-decoration: none;
+            background: #05396B;
+            margin: 20px 20px 20px 20px;
+            border: 2px solid white;
+            border-spacing: 30px;
+            padding: 10px 30px;
+        }
+        footer p{
+            color: white;
+            padding-left: 60px;
+        }
+        section {
+            color: #05396B;
+            text-align: center;
+            height: 100%;
+        }
+        section button {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 16px;
+            text-align: center;
+            text-decoration: none;
+            background: #F0F8FF;
+            margin: 20px 20px 20px 20px;
+            border: 2px solid #05396B;
+            border-spacing: 30px;
+            padding: 10px 30px;
+        }
+        section button a {
+            text-decoration: none;
+            color: #05396B;
+        }
+        .line {
+            width: 232px;
+            border-top: #05396B solid 2px;
+            margin: 0 auto;
+            padding-bottom: 50px;
+        }
+        section h1 {
+            font-size: 100px;
+            margin-bottom: 30px;
+        }
+        section p {
+            padding: 0 180px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header class="header-flex">
+    <h1 class="logotype"><b>Logo</b>Type</h1>               <!-- komment: Hogyan lehet a "Type"-ról levenni a bold formázást? -->
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">portfolio</a></li>
+    </ul>
+    <button><a href="#">Contact</a></button>
+</header>
+
+
+<section>
+    <h1>Super Slogan</h1>
+    <div class="line"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, reprehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias culpa harum iste magnam non provident ratione. Beatae debitis eaque ex iusto nam qui quibusdam repudiandae rerum sit. A, accusantium, eveniet?</p>
+    <button><a href="#">Read more</a></button>
+</section>
+
+
+<footer class="footer-flex">
+    <h1 class="logotype"><b>Logo</b>Type</h1>                <!-- komment: Hogyan lehet a "Type"-ról levenni a bold formázást? -->
+    <p><b>2020 Ⓒ LogoType LTD. </b>All right reserved</p>
+</footer>
+
+
+
+</body>
+</html>

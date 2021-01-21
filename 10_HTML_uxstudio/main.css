@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: 'Lato',sans-serif;
+    color: #FFF;
+}
+
+.main-section {
+    margin: 0;
+    background: url("assets/images/top-bg-mob.jpg") center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header__menu-bar_mobile {
+    width: 31px;
+    height: 4px;
+    background-color: #FFF;
+    margin: 6px 0;
+}
+
+.header__company-name {
+    margin-left: 5px;
+    line-height: 27px;
+}
+
+.header__logo-name {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.hero__services-button {
+    height: 50px;
+    width: 50%;
+    background: none;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 2px solid #4BCC8C;
+    border-spacing: 15px;
+    transition: 1s;
+}
+
+.hero__services-button:hover {
+    border: 2px solid #FFF;
+}
+
+.hero__services-button a {
+    text-decoration: none;
+    color: #4BCC8C;
+}
+
+.hero__main-slogan {
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-size: 32px;
+}
+
+.hero__description {
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 0 24px;
+}
+
+.icons img {
+    width: 80px;
+    height: 37px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 0 24px;
+}
+
+.link-to-works__button img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #4BCC8C;
+    border-radius: 50px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.link-to-works__button img:hover{
+    border-color: #FFF;
+}
+
+.link-to-works__button a {
+    text-decoration: none;
+}
+
+.link-to-works__button {
+    background: none;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    bottom: 25px;
+}
+
+.link-to-works {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    background: none;
+}
+
+.header__menu-bar_tablet {
+    margin: 0 10px;
+}
+
+.header__tablet-menu {
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+}
+
+.header__contact-button_tablet {
+    background: #4BCC8C;
+    font-size: 20px;
+    border: 5px;
+    padding: 5px 10px;
+}
+
+.header__contact-button_tablet a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.featured-section {
+    background: #F7F7F7;
+    margin: 0;
+    padding: 0;
+}
+
+.featured-section__title {
+    display: flex;
+    flex-direction: column;
+    color: #172735;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 15px;
+}
+
+.featured-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-works_box-one {
+    width: 328px;
+    height: 224px;
+    background: #445162;
+    margin: 16px;
+}
+
+.featured-works_box-two {
+    width: 328px;
+    height: 224px;
+    background: #333B45;
+    margin: 16px;
+}
+
+.featured-works_box-three {
+    width: 328px;
+    height: 224px;
+    background: #252930;
+    margin: 16px;
+}
+
+.featured-works_box-four {
+    width: 328px;
+    height: 224px;
+    background: #F7F7F7;;
+    margin: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__main-slogan {
+        margin-top: 0;
+        margin-bottom: 60px;
+        font-size: 52px;
+    }
+    .hero__description {
+        margin-top: 0;
+        margin-bottom: 60px;
+        font-size: 24px;
+    }
+    .hero__services-button {
+        height: 60px;
+        width: 30%;
+        font-size: 16px;
+    }
+    .hero {
+        margin-top: 90px;
+    }
+    .icons img {
+        width: 155px;
+        height: 55px;
+    }
+    .icons {
+        margin-top: 90px;
+    }
+    .link-to-works {
+        margin-top: 90px;
+    }
+    .header__hamburger-menu {
+        display: none;
+    }
+    .featured-works {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__tablet-menu {
+        display: none;
+    }
+    .featured-works_box-four {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .featured-works_box-four {
+        display: none;
+    }
+}

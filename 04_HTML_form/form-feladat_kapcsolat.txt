@@ -1,0 +1,17 @@
+HTML ürlap feladat - Kapcsolat ürlap
+
+1. hozz létre egy új html oldalt, nevezd el kapcsolat.html-nek
+2. hozz létre benne egy űrlapot, az alábbi mezőkkel: név, telefonszám, e-mail cím, üzenet, küldés gomb
+3. Minden mezőnek válassz az adatnak megfelelő típust (név=text, telefonszám=number, email..)
+4. Az üzenet mező 10 sor magas legyen és 50 oszlop széles széles
+5. A név, telefonszám, email cím mezők legyenek kötelezőek!
+6. A mezők legyenek egymás alatt.
+
+
+Bonus faladat: Hozz létre egy kötelező checkboxot, hogy GDPR kompatibils legyen az ürlap:
+Címe legyen: "Elfogadom az adatvédelmi tájékoztatót". 
+Az adatvédelmi tájékoztató legyen egy link egy tetszúleges weboldalra :) 
+
+Ha végeztél
+A kapcsolat.html-t küldd el nekem és Lacinak
+zoltanrakottyai@gmail.com

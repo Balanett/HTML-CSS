@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    background: black;
+}
+
+.landing-section {
+    margin: 0;
+    background: url("assets/images/landing.jpg") center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.landing-logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.landing-logo-svg {
+    fill: #FFF;
+    width: 105px;
+    height: 18px;
+    margin-top: 20px;
+}
+
+.landing-hero {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
+
+.landing-hero-date {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.landing-hero-main {
+    font-size: 34px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.landing-hero-button {
+    background: none;
+    font-size: 11px;
+    width: 138px;
+    height: 42px;
+    border: 2px solid #FFF;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+.landing-hero-button a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.blog-section_box {
+    width: 336px;
+    height: 224px;
+    background: url("assets/images/Star15_3137.jpg") center top no-repeat;
+    background-size: cover ;
+    margin-top: 60px;
+}
+
+.blog-section_box-date {
+    color: #8B939B;
+    font-family: Arial normal sans-serif;
+    font-size: 14px;
+    margin-left: -225px;
+    margin-bottom: 0;
+}
+
+.blog-section_box-title {
+    font-size: 24px;
+    margin-left: -105px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.blog-section_box-button {
+    font-size: 16px;
+    font-family: Arial normal sans-serif;
+    margin-top: 2px;
+    margin-left: -254px;
+    margin-bottom: 0;
+}
+
+.newsletter-title {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+.newsletter-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.newsletter-email {
+    text-decoration: none;
+    background: none;
+    padding-right: 50px;
+    border: 2px solid #FFF;
+    align-content: center;
+    width: 60%;
+}
+
+#email {
+    color: #FFF;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+
+.future-section {
+    background: url("assets/images/saturn.jpg") center top no-repeat;
+    background-size: auto;
+}
+
+.future-empty {
+    height: 500px;
+}
+
+.future-description {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 400px;
+}
+
+.future-button {
+    background: none;
+    font-size: 11px;
+    width: 138px;
+    height: 42px;
+    border: 2px solid #FFF;
+    display: block;
+    margin: 0 auto 60px auto;
+}
+
+.future-button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-title {
+    font-size: 12px;
+    color: #8B939B;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box-item {
+    font-size: 12px;
+    color: #8B939B;
+    text-align: center;
+    padding: 0 10px;
+}

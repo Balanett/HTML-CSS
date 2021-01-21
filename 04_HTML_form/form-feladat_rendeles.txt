@@ -1,0 +1,24 @@
+HTML ürlap feladat - Kapcsolat ürlap
+
+1. hozz létre egy új html oldalt, nevezd el rendeles.html-nek
+2. hozz létre benne egy űrlapot 
+
+
+3. hozz létre egy új "Személyes adatok"  úrlap csoportot, benne az alábi mezőkkel:
+ név, telefonszám, e-mail cím, város, cím, irányítószám, Nem (férfi, nő - radio) 
+4. Minden mezőnek válassz az adatnak megfelelő típust (név=text, telefonszám=number, email..)
+
+5. hozz létre egy új űrlap csoportot "Rendelés" névvel
+6. ebbe a csoportba ki lehet választani 3 terméket: nevük A,B,c termék. Akár mind választható
+7. Lehet választani termék színt (color típus)
+
+
+Összes mezőre:
+ - Minden mezőnek legyen megfelelő címkéje
+ - személyes adatok legyenek kötelezőek
+
+
+
+Ha végeztél
+A html-t küldd el nekem és Lacinak
+zoltanrakottyai@gmail.com

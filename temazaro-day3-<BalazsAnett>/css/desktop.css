@@ -1,0 +1,155 @@
+/* DESKTOP 1200px=< */
+
+/* global */
+
+:root {
+    --desktop-side-margin: 50px;
+}
+
+@media all and (min-width: 1200px) {
+
+    .btn {
+        font-size: 15px;
+        width: 180px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .header__link {
+        display: block;
+        height: 21px;
+        margin: 0 10px;
+        padding: 29px 0;
+    }
+
+    .header__left {
+        display: flex;
+    }
+
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 25px;
+        margin-top: 0;
+    }
+
+    .posts__title {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: -2.4px;
+        margin: 50px
+    }
+
+    .reusability {
+        display: grid;
+        grid-gap: 25px;
+        margin: 0 50px;
+        align-items: center;
+    }
+
+    .reusability__title {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: -2.4px;
+        margin: 0
+    }
+
+    .item-img {
+        grid-column: 1/1;
+        width: 100%;
+    }
+
+    .item-text {
+        grid-column: 2/2;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .inspiration {
+        background-size: 100%;
+    }
+
+    .inspiration__quote {
+        padding-top: 800px;
+    }
+
+
+    /* SUB DESKTOP 1200px=< */
+
+    .back__link-icon {
+        transform: rotate(180deg);
+        position: absolute;
+        margin-top: -5px;
+        margin-left: -5px;
+    }
+
+    .back__link-title {
+        margin-left: 15px;
+    }
+
+    .back__link {
+        margin-top: 30px;
+    }
+
+    .landing__video {
+        margin-top: 20px;
+        width: 100%;
+        height: 350px;
+    }
+
+    .starlink-headline {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .starlink-headline__date {
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #8B939B;
+    }
+
+    .starlink-headline__title {
+        font-size: 40px;
+    }
+
+    .starlink-description {
+        display: flex;
+        margin: 35px;
+    }
+
+    .starlink-description__p {
+        width: 50%;
+        text-align: justify;
+        padding: 15px;
+        line-height: 20px;
+    }
+
+}
+
+@media all and (max-width: 1199px) {
+    .header__link {
+        display: none;
+    }
+
+    .posts__title {
+        display: none;
+    }
+
+    .reusability {
+        display: none;
+    }
+}

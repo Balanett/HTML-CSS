@@ -1,0 +1,9 @@
+.city {
+    background-color: black;
+}
+
+#myImage {
+    width: 100%;
+    border: 5px dotted red;
+    padding: 10px;
+}

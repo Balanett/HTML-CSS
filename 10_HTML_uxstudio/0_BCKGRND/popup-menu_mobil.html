@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body { margin: 0;}
+    #popup {
+        width: 0;
+        height: 100%;
+        background: red;
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        transition: all 1s;
+        overflow: hidden;
+    }
+
+    #cbox {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 3;
+    }
+
+    #cbox:checked ~ #popup {
+        width: 100%;
+    }
+</style>
+<body>
+
+<input id="cbox" type="checkbox">
+<label for="cbox">button</label>
+
+<div id="popup">
+    <h1>címsor</h1>
+    <ul>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">menu</a></li>
+    </ul>
+</div>
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad atque consequatur distinctio dolor dolores magni maxime nam optio, perferendis perspiciatis porro quam quod soluta sunt, totam, ut vel voluptates.</p>
+
+
+</body>
+</html>
